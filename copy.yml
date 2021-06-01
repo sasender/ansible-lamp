@@ -3,6 +3,7 @@
   hosts: all
   tasks:
   - name: copy file demo
+    copy:
       src: /etc/hosts
       dest: /tmp/
 
